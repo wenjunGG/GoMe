@@ -716,7 +716,6 @@
     height: 21px;
     line-height: 21px;
     color: #0b0f0b;
-    cursor: pointer;
 }
 
 .g_content .mainmai .m-content .m-c-left ul li .content-info .c-info-top:hover {
@@ -726,7 +725,6 @@
 .g_content .mainmai .m-content .m-c-left ul li .content-info .c-info-middle {
     margin-top: 10px;
     color: #bb8182;
-    cursor: pointer;
 }
 
 .g_content .mainmai .m-content .m-c-left ul li .content-info .c-info-middle:hover {

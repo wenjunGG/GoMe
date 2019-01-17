@@ -309,3 +309,130 @@
 
 
 /*导航头部信息  ******结束**********/
+
+
+/*底部信息  ******开始**********/
+
+.gome .g_footer .f-top {
+    width: 1200px;
+    height: 71px;
+    background-color: whitesmoke;
+    margin: 20px auto 0px;
+}
+
+.gome .g_footer .f-top ul li {
+    width: 395px;
+    line-height: 71px;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
+
+.gome .g_footer .f-top ul li i {
+    display: inline-block;
+    width: 40px;
+    height: 42px;
+    background: url(../images/ui.png) 0px -1470px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.gome .g_footer .f-middle {
+    padding-bottom: 18px;
+    border-bottom: 1px solid #dd00a7;
+}
+
+.gome .g_footer .f-middle .f-content {
+    width: 1200px;
+    margin: 10px auto 0px;
+}
+
+.gome .g_footer .f-middle .f-content ul li {
+    width: 240px;
+    height: 148px;
+    text-align: left;
+    text-indent: 55px;
+}
+
+.gome .g_footer .f-middle .f-content ul li p {
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.gome .g_footer .f-middle .f-content ul li p:first-child {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #000;
+}
+
+.gome .g_footer .f-middle .f-content ul li p a:hover {
+    color: red;
+}
+
+.gome .g_footer .f-bottom {
+    width: 1200px;
+    margin: 25px auto;
+}
+
+.gome .g_footer .f-bottom .f-b-top {
+    height: 111px;
+}
+
+
+/*左边*/
+
+.gome .g_footer .f-bottom .f-b-top .b-top-l {
+    width: 970px;
+}
+
+.gome .g_footer .f-bottom .f-b-top .l-tl i {
+    width: 45px;
+    height: 45px;
+    background: url(../images/ui.png) no-repeat 0 -135px;
+}
+
+.gome .g_footer .f-bottom .f-b-top .l-tl .t-icon-box-m {
+    margin-right: 130px;
+}
+
+.gome .g_footer .f-bottom .f-b-top .l-tt {
+    margin-top: 45px;
+}
+
+.gome .g_footer .f-bottom .f-b-top .l-tt ul li.split {
+    margin-top: 5px;
+    width: 1px;
+    height: 12px;
+    background-color: #ddd;
+}
+
+.gome .g_footer .f-bottom .f-b-top .l-tt ul li a {
+    padding: 0px 5px;
+}
+
+.gome .g_footer .f-bottom .f-b-top .l-tt ul li a:hover {
+    color: red;
+}
+
+
+/*右边*/
+
+.gome .g_footer .f-bottom .f-b-top .b-top-r {
+    margin-left: 5px;
+    width: 220px;
+}
+
+.gome .g_footer .f-bottom .f-b-top .b-top-r p {
+    margin-right: 18px;
+}
+
+.gome .g_footer .f-bottom .f-b-top .b-top-r p>i {
+    display: block;
+    width: 40px;
+    height: 25px;
+    background: url(../images/ui.png) no-repeat -105px -135px;
+}
+
+
+/*底部信息  ******结束**********/
