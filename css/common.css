@@ -1,0 +1,311 @@
+@charset 'UTF-8';
+
+/* 公共样式 */
+
+
+/*导航头部信息  ******开始**********/
+
+.com-nav-wrap {
+    /* width: 100%; */
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+.com-nav-wrap .com-nav-box {
+    margin: 0px auto;
+    width: 1200px;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+/**公共 悬浮样式*/
+
+.com-nav-wrap .com-nav-box .com-content:hover a>span {
+    color: red;
+}
+
+.com-nav-wrap .com-nav-box .com-hover {
+    position: relative;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.com-nav-wrap .com-nav-box .com-hover>a {
+    display: block;
+    padding: 0px 5px;
+}
+
+.com-nav-wrap .com-nav-box .com-hover>a>.open {
+    font-size: 12px;
+}
+
+.com-nav-wrap .com-nav-box .com-hover:hover {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.com-nav-wrap .com-nav-box .com-hover:hover>a {
+    position: relative;
+    height: 31px;
+    z-index: 3;
+    background-color: #fff;
+}
+
+.com-nav-wrap .com-nav-box .com-hover:hover>a i.open {
+    transform: rotate(180deg);
+}
+
+
+/*公共 间隔*/
+
+.com-nav-wrap .com-nav-box .com-margin+.com-margin {
+    margin-left: 5px;
+}
+
+
+/* 公共 定位*/
+
+.com-nav-wrap .com-nav-box .com-nav-2 {
+    position: absolute;
+    top: 30px;
+}
+
+
+/***左边导航*******************************开始**********************/
+
+.com-nav-wrap .com-nav-box .com-l .com-l-member:hover .m-box {
+    display: block;
+}
+
+.com-nav-wrap .com-nav-box .com-l .regist .regist_text:after {
+    content: '';
+    float: right;
+    margin: 9px 0 0px 3px;
+    width: 12px;
+    height: 13px;
+    background: url(../images/ui.png) no-repeat -145px -1496px;
+}
+
+
+/**左边 二级导航*/
+
+.com-nav-wrap .com-nav-box .com-l .com-l-member .m-box {
+    z-index: 2;
+    display: none;
+    left: -1px;
+    padding: 15px 15px 10px 16px;
+    width: 289px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.com-nav-wrap .com-nav-box .com-l .com-l-member .m-box .m-top {
+    padding-bottom: 18px;
+    height: 57px;
+    line-height: 57px;
+    border-bottom: 1px solid #ddd;
+}
+
+.com-nav-wrap .com-nav-box .com-l .com-l-member .m-box .m-top .m-top-face {
+    margin-right: 10px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    /* background-color: yellow; */
+    background: url(../images/ui.png) no-repeat 0 -337px;
+}
+
+.com-nav-wrap .com-nav-box .com-l .com-l-member .m-box .m-top p a:hover {
+    color: red;
+}
+
+.com-nav-wrap .com-nav-box .com-l .com-l-member .m-box .m-bottom .m-b-top a:hover {
+    color: red;
+}
+
+
+/** 轮播**/
+
+.com-nav-wrap .com-nav-box .com-l .com-l-member .m-box .m-bottom .m-b-top {}
+
+.com-nav-wrap .com-nav-box .com-l .com-l-member .m-box .m-bottom .m-b-box {
+    position: relative;
+    margin: 0px auto;
+    width: 210px;
+}
+
+.com-nav-wrap .com-nav-box .com-l .com-l-member .m-box .m-bottom .m-b-box .b-banner {
+    width: 210px;
+    overflow: hidden;
+    height: 60px;
+}
+
+.com-nav-wrap .com-nav-box .com-l .com-l-member .m-box .m-bottom .m-b-box ul {
+    width: 210px;
+    width: 3000px;
+}
+
+.com-nav-wrap .com-nav-box .com-l .com-l-member .m-box .m-bottom .m-b-box ul li {
+    margin: 0px 5px;
+    width: 60px;
+    text-align: center;
+    color: #ddd;
+}
+
+.com-nav-wrap .com-nav-box .com-l .com-l-member .m-box .m-bottom .m-b-box .b-banner li>a:hover {
+    color: red;
+}
+
+.com-nav-wrap .com-nav-box .com-l .com-l-member .m-box .m-bottom .m-b-box ul li i {
+    display: block;
+    margin: 0 auto;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 30px;
+}
+
+
+/**定位按钮**/
+
+.com-nav-wrap .com-nav-box .com-l .com-l-member .m-box .m-bottom .m-b-box .b-box-btn {
+    position: absolute;
+    width: 16px;
+    height: 28px;
+}
+
+.com-nav-wrap .com-nav-box .com-l .com-l-member .m-box .m-bottom .m-b-box .btn-left {
+    top: 12px;
+    left: -30px;
+    background: url(../images/ui.png) no-repeat -60px -358px;
+    cursor: pointer;
+}
+
+.com-nav-wrap .com-nav-box .com-l .com-l-member .m-box .m-bottom .m-b-box .btn-right {
+    top: 12px;
+    right: -30px;
+    background: url(../images/ui.png) no-repeat -76px -358px;
+    cursor: pointer;
+}
+
+
+/***左边导航*******************************结束**********************/
+
+
+/***2.右边导航*******************************开始**********************/
+
+
+/**右边导航二级**/
+
+
+/** 我的国美***/
+
+.com-nav-wrap .com-nav-box .com-r .mygumo {
+    position: relative;
+}
+
+.com-nav-wrap .com-nav-box .com-r .mygumo:hover .my-box {
+    display: block;
+}
+
+.com-nav-wrap .com-nav-box .com-r .mygumo .my-box {
+    z-index: 3;
+    display: none;
+    left: -1px;
+    width: 260px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.com-nav-wrap .com-nav-box .com-r .mygumo .my-box p {
+    font-weight: bold;
+    text-indent: 8px;
+}
+
+.com-nav-wrap .com-nav-box .com-r .mygumo .my-box p .login {
+    color: #069;
+}
+
+
+/*订单类*/
+
+.com-nav-wrap .com-nav-box .com-r .mygumo .my-box .my-order {
+    margin: 0px 10px 10px 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.com-nav-wrap .com-nav-box .com-r .mygumo .my-box .my-order li {
+    float: left;
+    width: 118px;
+    height: 26px;
+    line-height: 26px;
+}
+
+
+/*券类*/
+
+.com-nav-wrap .com-nav-box .com-r .mygumo .my-box .my-coupon {
+    padding: 10px 0px 0px 5px;
+}
+
+.com-nav-wrap .com-nav-box .com-r .mygumo .my-box .my-coupon li {
+    float: left;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+}
+
+.com-nav-wrap .com-nav-box .com-r .mygumo .my-box .my-coupon li a {
+    display: block;
+    line-height: 12px;
+    border-right: 1px solid #ddd;
+}
+
+.com-nav-wrap .com-nav-box .com-r .mygumo .my-box .my-coupon li a.bor-r-n {
+    border-right: none;
+}
+
+.com-nav-wrap .com-nav-box .com-r .mygumo .my-box .my-coupon li span {
+    display: block;
+}
+
+
+/*足迹*/
+
+.com-nav-wrap .com-nav-box .com-r .mygumo .my-box .my-footprint {
+    padding: 6px 0px;
+    background-color: #f8f8f8;
+    text-align: 8px;
+}
+
+.com-nav-wrap .com-nav-box .com-r .mygumo .my-box .my-footprint p {
+    font-weight: normal;
+}
+
+.com-nav-wrap .com-nav-box .com-r .mygumo .my-box .my-footprint .f-box {
+    width: 240px;
+    margin: 5px 8px;
+}
+
+.com-nav-wrap .com-nav-box .com-r .mygumo .my-box .my-footprint .f-box li {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../images/ui.png) no-repeat 0px -394px;
+}
+
+.com-nav-wrap .com-nav-box .com-r .mygumo .my-box .my-footprint .f-box li+li {
+    margin-left: 12px;
+}
+
+
+/** 我的国美***/
+
+
+/***2.右边导航*******************************结束**********************/
+
+
+/*导航头部信息  ******结束**********/
