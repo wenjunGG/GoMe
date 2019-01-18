@@ -624,8 +624,8 @@
 														<li class="fl mar-r10">
 														     <a href=""><img src="images/mai/mai2.jpg" alt="" width="305"></a>
 															 <div class="content-info">
-															      <div class="c-info-top">有了它，随时随地开启工作模式</div>
-															      <div class="c-info-middle">假期里还要兼顾工作是很多职场精英的常态，一台高性能笔记本电脑会在此刻给予最大的支持，那什么样的笔记本电脑才能算高性能呢？</div>
+															      <div class="c-info-top"><a href="">有了它，随时随地开启工作模式</a></div>
+															      <div class="c-info-middle"><a href="">假期里还要兼顾工作是很多职场精英的常态，一台高性能笔记本电脑会在此刻给予最大的支持，那什么样的笔记本电脑才能算高性能呢？</a></div>
 															      <div class="c-info-bottom">
 																           <i class="iconfont icon-zan3"></i>
 																		 <span>130</span>
@@ -637,8 +637,8 @@
 														<li class="fl">
 														        <a href=""><img src="images/mai/mai3.jpg" alt="" width="305"></a>
 															 <div class="content-info">
-															      <div class="c-info-top">有了它，随时随地开启工作模式</div>
-															      <div class="c-info-middle">假期里还要兼顾工作是很多职场精英的常态，一台高性能笔记本电脑会在此刻给予最大的支持，那什么样的笔记本电脑才能算高性能呢？</div>
+															      <div class="c-info-top"><a href="">有了它，随时随地开启工作模式</a></div>
+															      <div class="c-info-middle"><a href="">假期里还要兼顾工作是很多职场精英的常态，一台高性能笔记本电脑会在此刻给予最大的支持，那什么样的笔记本电脑才能算高性能呢？</a></div>
 															      <div class="c-info-bottom">
 																          <i class="iconfont icon-zan3"></i>
 																		 <span>130</span>
@@ -788,7 +788,7 @@
 														</p>
 														<div class="fl">
 															<a href=""><img src="images/10-footer/4.jpg" alt=""></a>
-															<span>扫描下载客户端</span>
+															<p>扫描下载客户端</p>
 														</div>
 												</div>
 											</div>
@@ -796,7 +796,64 @@
 											<div class="f-b-bottom"></div>
 									 </div>
 							</div>
-					 </div>
 
+                            <!--右边固定侧边栏-->
+							<div class="g_sidebarfix">
+							         <!---国美会员--->
+							        <div class="s-f-m">
+									   <a href="">
+									    <i class="iconfont icon-renyuan"></i>
+									   </a>
+									   <!--信息说明-->
+									   <div class="s-f-info">
+									        <span>国美会员</span>
+									   </div>
+									</div>
+									<!---购物车--->
+							        <div class="s-f-cart">
+									      <a href="" class="cart_box">
+									         <i class="iconfont icon-20gouwuche"><span>0</span></i>
+											  <span> 购物车</span>
+									   </a>
+									</div>
+									<!---我的收藏--->
+							        <div  class="s-f-collect">
+										 <a href="">
+											<i class="iconfont icon-kongwujiaoxing"></i>
+										   </a>
+										      <!--信息说明-->
+									   <div class="s-f-info">
+									        <span>我的收藏</span>
+									   </div>
+									</div>
+									<!---注册二维码--->
+							        <div class="s-f-regist">
+									        <a href="">
+											<i class="iconfont icon-iconfonterweima"></i>
+										   </a>
+										
+									</div>
+									<!---调研--->
+							        <div class="s-f-watch">
+											<a href="">
+													<i class="iconfont icon-yijianfankui"></i>
+												   </a>
+												     <!--信息说明-->
+									   <div class="s-f-info">
+									        <span>有奖调研</span>
+									   </div>
+									</div>
+									<!---在线客服--->
+							        <div class="s-f-service">
+									    	<a href="">
+													<i class="iconfont icon-kefu"></i>
+												   </a>
+												    <div class="s-f-info">
+									        <span>在线客服</span>
+									   </div>
+									</div>
+							</div>
+
+					 </div>
 			</body>
 	 </html>
